@@ -1,0 +1,257 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+    font-family: "Overpass", sans-serif;
+}
+h3 {
+  font-size: 120%;
+}
+a {
+  color: white;
+}
+a:hover,
+a:active {
+  color: rgb(193, 201, 246);
+  transition: all 0.5s;
+}
+/* -------------Icons ------------ */
+.small-icon {
+  width: 23px;
+}
+.colored--tick-icon {
+  width: 35px;
+  margin-bottom: 15px;
+}
+.tick-icon {
+  margin-bottom: 25px;
+}
+.bell-icon {
+  position: relative;
+  float: right;
+}
+.next-icon {
+  position: absolute;
+  right: 10px;
+  top: 40%;
+}
+.spanish-icon {
+  margin-bottom: 25px;
+}
+.grammer-icon {
+  height: 30px;
+  padding: 2px;
+}
+.dictionary-icon {
+  padding: 2px;
+}
+.navBar-icons {
+  width: 40px;
+  height: auto;
+  padding: 5px;
+  border-radius: 50%;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 0.3fr 2fr 1fr;
+  column-gap: 40px;
+  height: 100vh;
+}
+
+.logo {
+  width: 50px;
+  font-size: 40px;
+  text-align: center;
+  margin: 20px auto 100px auto;
+  color: orangered;
+  font-weight: bold;
+  box-shadow: -4px -3px 4px white, 2px 1px 8px #7e7e7e;
+}
+.nav-bar {
+  padding: 30px 10px;
+  background-color: #e7e6ff69;
+  grid-row: 1;
+}
+
+.icons-box {
+  display: flex;
+  height: 400px;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.active {
+  box-sizing: border-box;
+  padding: 5px;
+  box-shadow: 1px 1px 4px #636361 inset;
+}
+
+.progress-dashboard{
+  display: grid;
+  row-gap: 20px;
+  padding-top: 40px;
+}
+.top-section {
+  display: grid;
+  grid-template-columns: 3fr 1fr 1fr;
+  column-gap: 20px;
+}
+.exam-unit {
+  background-color: rgba(87, 20, 194, 0.831);
+  border-radius: 10px;
+  padding: 20px;
+  color: white;
+}
+.text {
+  opacity: 0.5;
+  margin: 10px 0px;
+}
+
+.start-testing {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.homework {
+  background-color: #ffe8dfc9;
+  color: #ff490099;
+}
+.small-box {
+  padding: 20px;
+  border-radius: 10px;
+}
+.reading {
+  background-color: #f5f5f5d1;
+}
+.middle-section {
+  display: grid;
+  grid-template-columns: 4.5fr 2fr;
+  column-gap: 40px;
+}
+.group-info {
+  padding: 15px 35px;
+  border-radius: 10px;
+  box-shadow: white 0px 0px 2px, rgb(227 226 226 / 78%) 0px 3px 17px;
+}
+.group-homework {
+  position: relative;
+  padding: 30px;
+  background-color: #ffa20c;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+.today-lesson {
+  display: flex;
+  justify-content: space-between;
+}
+.spanish {
+  padding: 30px 20px;
+}
+.spanish-beignner {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 50%;
+}
+
+progress {
+  background-color: white;
+  height: 8px;
+  color: white;
+}
+progress::-webkit-progress-value {
+  background: #ffa20c;
+  border-radius: 10px;
+}
+
+progress::-webkit-progress-bar {
+  border-radius: 10px;
+  background: rgb(235, 234, 200);
+}
+.grammer {
+  border: 2px solid black;
+}
+.dictionary {
+  border: 2px solid black;
+}
+.lower-section {
+  display: grid;
+  grid-template-columns: 40% 40%;
+  column-gap: 30px;
+}
+
+.grammer-dictionary-box {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+  border: 2px solid rgb(232, 232, 232);
+  border-radius: 10px;
+  height: 75%;
+  padding: 30px 35px;
+}
+.icon-shadow {
+  display: flex;
+  justify-content: center;
+  width: 50px;
+  height: 35px;
+  box-shadow: 1px 0px 4px #d6d6d6;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+.skills-section{
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+   
+}
+.image-section{
+    display: flex;
+    flex-direction:column;
+    justify-content: space-evenly;
+   margin: 0px 20%;
+}
+.harrison-img{
+    width: 100px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    box-shadow: 2px 5px 7px #b1b1b1;
+}
+.icon-box{
+    width: 20px;
+    border: 1px solid black;
+}
+.shadow-icons{
+    width: 20px;
+    box-sizing: content-box;
+    padding: 5px;
+    border-radius: 20%;
+    box-shadow: 2px 2px 5px rgb(210, 210, 210);
+}
+.skills-section-box{
+    position: relative;
+    border: 2px solid whitesmoke;
+    border-radius: 10px;
+    padding: 20px;
+    width: 80%;
+ }
+ .course-progress{
+    display: grid;
+    grid-template-rows: repeat(4,1fr);
+    align-items: center;
+    row-gap: 10px;
+}
+.course-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+
